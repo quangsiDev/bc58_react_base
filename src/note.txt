@@ -1,0 +1,9 @@
+state : quản lý data liên quan đến việc thay đổi layout ~ data trong state thay đổi => react sẽ tự động render lại layout
+
+data binding : đưa data của 1 biến lên layout
+
+
+render with map : convert 1 array chứa data trở thành array chứa html ( component )
+
+
+props: giao tiếp giữa 2 component với nhau ( cha con )
