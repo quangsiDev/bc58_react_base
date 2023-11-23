@@ -10,10 +10,13 @@ export default class Ex_Phone extends Component {
   };
   // state ở đâu viết setState tại đó
   // viết function thay đổi detail khi user click button Xem => hàm có tham số
+  handleChangeDetail = (shoe) => {
+    this.setState({ detail: shoe });
+  };
   render() {
     return (
       <div>
-        <List listPhone={this.state.listPhone} />
+        <List handleViewDetail={this.handleChangeDetail} listPhone={this.state.listPhone} />
         <Detail detail={this.state.detail} />
       </div>
     );

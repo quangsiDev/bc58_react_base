@@ -7,7 +7,14 @@ export default class Item extends Component {
       <div className="col-4">
         <img className="w-100" src={this.props.data.hinhAnh} alt="" />
         <h4>{this.props.data.tenSP}</h4>
-        <button className="btn btn-primary">Xem</button>
+        <button
+          onClick={() => {
+            this.props.handleClick(this.props.data);
+          }}
+          className="btn btn-primary"
+        >
+          Xem
+        </button>
       </div>
     );
   }

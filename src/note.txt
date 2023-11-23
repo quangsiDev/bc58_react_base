@@ -7,3 +7,24 @@ render with map : convert 1 array chứa data trở thành array chứa html ( c
 
 
 props: giao tiếp giữa 2 component với nhau ( cha con )
+
+
+
+--- redux ---
+
+setup : Provider , tạo store ~ createStore-
+
++reducer: nơi viết logic để update state
++action : object gồm 2 key.
+  type ~ mô tả nghiệp vụ ( thêm,xoá,...)
+  payload ~ chứa data được gửi từ component lên reducer để thực hiện nghiệp vụ
+
+
+
+sử dụng
+
+
++mapStateToProps: Đưa data từ state redux về component ~ lấy về
+
++mapDispatchToProps: Đẩy data (action) lên reducer
+
