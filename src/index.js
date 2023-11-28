@@ -7,11 +7,12 @@ import { createStore } from "redux";
 import { numberReducer } from "./DemoRedux/redux/reducer";
 import { Provider } from "react-redux";
 import { shoeReducer } from "./Ex_Shoe_Redux/redux/reducer";
+import { xucXacReducer } from "./Ex_TaiXiu/redux/reducer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // tạo store
 let store = createStore(
-  shoeReducer,
+  xucXacReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 root.render(

@@ -12,6 +12,7 @@ import Ex_Phone from "./Ex_Phone/Ex_Phone";
 import Ex_Shoe from "./Ex_Shoe/Ex_Shoe";
 import DemoRedux from "./DemoRedux/DemoRedux";
 import Ex_Shoe_Redux from "./Ex_Shoe_Redux/Ex_Shoe_Redux";
+import Ex_TaiXiu from "./Ex_TaiXiu/Ex_TaiXiu";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <Ex_Car /> */}
       {/* <Ex_Phone /> */}
       {/* <Ex_Shoe /> */}
-      {<Ex_Shoe_Redux />}
+      {/* {<Ex_Shoe_Redux />} */}
+      <Ex_TaiXiu />
     </div>
   );
 }
